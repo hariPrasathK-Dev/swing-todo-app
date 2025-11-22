@@ -1,95 +1,69 @@
-# ✅ Java Swing To-Do App
+# ✅ Pro Java To-Do App
+
+A professional, resume-worthy To-Do application built with **Java Swing**, **FlatLaf**, and **SQLite**.
 
 ---
 
 ## ✨ Features
 
-- 📝 Add tasks to your list instantly
-- ❌ Delete selected tasks
-- 📋 View all tasks in a scrollable view
-- 📦 Built with Java Swing & Object-Oriented Design
-- 🖥️ No internet required — works completely offline!
+- **Modern UI**: Sleek Dark Mode using [FlatLaf](https://www.formdev.com/flatlaf/).
+- **Persistence**: Tasks are saved in a local SQLite database (`todo.db`).
+- **Task Management**: Add, Delete, and Mark tasks as Completed.
+- **Priorities**: Organize tasks by High, Medium, or Low priority.
+- **Filtering**: Quickly view tasks by priority level.
+- **MVC Architecture**: Clean separation of concerns (Model-View-Controller).
 
 ---
 
-## 📸 Demo
+## 🛠 Tech Stack
 
-![Main Menu](images/menu.png)  
-*🧭 The main menu interface with task input*
+- **Language**: Java 17+
+- **UI Framework**: Swing + FlatLaf
+- **Database**: SQLite
+- **Build Tool**: Maven
+- **Testing**: JUnit 5
 
-![Add Task](images/add-task.png)  
-*✅ Adding a new task using the input box*
+---
 
-![Delete Task](images/delete-task.png)  
-*❌ Deleting a selected task from the list*
+## 🚀 How to Run
+
+### Prerequisites
+- Java JDK 17 or higher
+- Maven
+
+### Build & Run
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/hariPrasathK-Dev/swing-todo-app.git
+   cd swing-todo-app
+   ```
+
+2. **Build the project**:
+   ```bash
+   mvn clean package
+   ```
+
+3. **Run the application**:
+   ```bash
+   java -jar target/swing-todo-app-1.0-SNAPSHOT.jar
+   ```
 
 ---
 
 ## 📁 Project Structure
 
 ```
-swing-todo-app/
-├── ToDoApp.java
-├── README.md
-├── images/
-│   ├── menu.png
-│   ├── add-task.png
-│   └── delete-task.png
-
+src/main/java/com/todo/
+├── Main.java           # Entry point
+├── model/              # Data models (Task)
+├── view/               # UI Components (MainFrame, Dialogs)
+├── controller/         # Business Logic
+├── dao/                # Data Access Objects (Database)
+└── db/                 # Database Connection
 ```
-
----
-
-## 🚀 How to Run
-
-### 1. Compile the project
-
-```
-bash
-javac ToDoApp.java
-```
-
-### 2. Run the application
-```
-java ToDoApp
-```
-
----
-
-## 🛠 Tech Stack
-
-- ☕️ Java SE — Core language for the application
-- 🪟 Java Swing — Lightweight desktop GUI
-- 🖥️ Desktop CLI/GUI — Standalone, no server required
-- 🛠️ Git & GitHub — Version control and collaboration
-
----
-
-## 🔮 Future Improvements
-
-- ✅ Checkbox to mark completed tasks
-- 📁 Save tasks to a file (persist after restart)
-- ⏱ Add timestamps to each task
-- 🎨 Custom fonts/colors for better UI
-- 🖼 Build a JavaFX version with modern design
 
 ---
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by **[!HARI PRASATH K](https://github.com/hariPrasathK-Dev)**  
-🚀 Java Developer Intern @ **Elevate Labs**
-
----
-
-## ⭐ Show Your Support
-
-If this project helped or inspired you:
-
-- ⭐ Star the repository
-- 🍴 Fork the repo and extend it your way
-- 🔁 Share it with others
-
-> ✍️ "A task written is a task halfway done."
-
----
+Made with ❤️ by **[!HARI PRASATH K](https://github.com/hariPrasathK-Dev)**
