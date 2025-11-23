@@ -1,4 +1,4 @@
-# ✅ Pro Java To-Do App
+# Java To-Do App
 
 A professional, resume-worthy To-Do application built with **Java Swing**, **FlatLaf**, and **SQLite**.
 
@@ -19,7 +19,7 @@ A professional, resume-worthy To-Do application built with **Java Swing**, **Fla
 
 - **Language**: Java 17+
 - **UI Framework**: Swing + FlatLaf
-- **Database**: SQLite
+- **Database**: Supabase postgres
 - **Build Tool**: Maven
 - **Testing**: JUnit 5
 
@@ -65,5 +65,6 @@ src/main/java/com/todo/
 ---
 
 ## 🙋‍♂️ Author
+
 
 Made with ❤️ by **[!HARI PRASATH K](https://github.com/hariPrasathK-Dev)**
